@@ -1,14 +1,15 @@
-// firebaseConfig.js
+// src/firebaseConfig.js
 import { initializeApp } from "firebase/app";
 
+// Firebase config object (this should be copied from Firebase Console)
 const firebaseConfig = {
-  apiKey: "AIzaSyAxKIS4siexE9EJyeu7xQRLnzUIheSmB6I",
-  authDomain: "teacher-portal-680fc.firebaseapp.com",
-  projectId: "teacher-portal-680fc",
-  storageBucket: "teacher-portal-680fc.appspot.com", // فقط اینو تغییر دادم: ".app" → ".appspot.com"
-  messagingSenderId: "873553287861",
-  appId: "1:873553287861:web:db22251f13db229bdbfcfc",
-  measurementId: "G-2CPQFQ497Q"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 // Initialize Firebase
